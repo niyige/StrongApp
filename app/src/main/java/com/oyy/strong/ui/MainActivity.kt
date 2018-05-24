@@ -22,7 +22,7 @@ import org.jetbrains.anko.toast
 
 class MainActivity : AppCompatActivity() {
 
-    private val tabs = arrayOf("王境泽", "sorry", "打工")
+    private val tabs = arrayOf("王境泽", "为所欲为", "打工")
 
     private val fragments = ArrayList<Fragment>()
 
