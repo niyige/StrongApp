@@ -21,10 +21,11 @@
 
 操作：
 
-![video](https://github.com/niyige/StrongApp/blob/master/screenshots/start.mp4)
+![Watch the video](https://github.com/niyige/StrongApp/blob/master/screenshots/start.mp4)
 
 开图：
 ![video](https://github.com/niyige/StrongApp/blob/master/screenshots/gifShow.mp4)
+这个时候点击转发，就成了正常的表情包了
 
 清除缓存（android手机你懂的）：
 
@@ -32,7 +33,7 @@
 
 
 #部分代码
-![image](https://github.com/niyige/StrongApp/blob/master/screenshots/left_menu.jpg)
+![image](https://github.com/niyige/StrongApp/blob/master/screenshots/left_menu.png)
 
 #联系我
 如果有其他搞笑的需求，可以联系我：QQ:893007592.
