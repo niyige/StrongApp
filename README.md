@@ -21,14 +21,13 @@
 
 操作：
 
-![Watch the video](https://github.com/niyige/StrongApp/blob/master/screenshots/start.mp4)
+![image](https://github.com/niyige/StrongApp/blob/master/screenshots/start.gif)
 
 开图：
-![video](https://github.com/niyige/StrongApp/blob/master/screenshots/gifShow.mp4)
-这个时候点击转发，就成了正常的表情包了
+![image](https://github.com/niyige/StrongApp/blob/master/screenshots/gifShow.gif)
+这个时候QQ里面长按点击转发，就成了正常的表情包了
 
 清除缓存（android手机你懂的）：
-
 ![image](https://github.com/niyige/StrongApp/blob/master/screenshots/clear.jpg)
 
 
