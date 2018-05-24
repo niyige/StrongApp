@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="A: "
+                android:textColor="@color/black_333333"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/edit_1"
+                android:layout_width="match_parent"
+                android:layout_height="44dip"
+                android:background="@drawable/shape_edit_bg"
+                android:gravity="center_vertical"
+                android:hint="好啊"
+                android:lines="1"
+                android:paddingLeft="10dp"
+                android:text="好啊"
+                android:textColor="@color/black_333333"
+                android:textColorHint="@color/gray_999999"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="A: "
+                android:textColor="@color/black_333333"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/edit_2"
+                android:layout_width="match_parent"
+                android:layout_height="44dip"
+                android:background="@drawable/shape_edit_bg"
+                android:gravity="center_vertical"
+                android:hint="别说我是一等良民"
+                android:lines="1"
+                android:paddingLeft="10dp"
+                android:text="别说我是一等良民"
+                android:textColor="@color/black_333333"
+                android:textColorHint="@color/gray_999999"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="A: "
+                android:textColor="@color/black_333333"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/edit_3"
+                android:layout_width="match_parent"
+                android:layout_height="44dip"
+                android:background="@drawable/shape_edit_bg"
+                android:gravity="center_vertical"
+                android:hint="就算你们真的想诬告我"
+                android:lines="1"
+                android:paddingLeft="10dp"
+                android:text="就算你们真的想诬告我"
+                android:textColor="@color/black_333333"
+                android:textColorHint="@color/gray_999999"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="A: "
+                android:textColor="@color/black_333333"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/edit_4"
+                android:layout_width="match_parent"
+                android:layout_height="44dip"
+                android:background="@drawable/shape_edit_bg"
+                android:gravity="center_vertical"
+                android:hint="我有的是钱找律师帮我打官司"
+                android:lines="1"
+                android:paddingLeft="10dp"
+                android:text="我有的是钱找律师帮我打官司"
+                android:textColor="@color/black_333333"
+                android:textColorHint="@color/gray_999999"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="A: "
+                android:textColor="@color/black_333333"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/edit_5"
+                android:layout_width="match_parent"
+                android:layout_height="44dip"
+                android:background="@drawable/shape_edit_bg"
+                android:gravity="center_vertical"
+                android:hint="我想我根本不用坐牢"
+                android:lines="1"
+                android:paddingLeft="10dp"
+                android:text="我想我根本不用坐牢"
+                android:textColor="@color/black_333333"
+                android:textColorHint="@color/gray_999999"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="B: "
+                android:textColor="@color/black_333333"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/edit_6"
+                android:layout_width="match_parent"
+                android:layout_height="44dip"
+                android:background="@drawable/shape_edit_bg"
+                android:gravity="center_vertical"
+                android:hint="你别以为有钱了不起啊"
+                android:lines="1"
+                android:paddingLeft="10dp"
+                android:text="你别以为有钱了不起啊"
+                android:textColor="@color/black_333333"
+                android:textColorHint="@color/gray_999999"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="A: "
+                android:textColor="@color/black_333333"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/edit_7"
+                android:layout_width="match_parent"
+                android:layout_height="44dip"
+                android:background="@drawable/shape_edit_bg"
+                android:gravity="center_vertical"
+                android:hint="sorry 有钱真的可以为所欲为"
+                android:lines="1"
+                android:paddingLeft="10dp"
+                android:text="sorry 有钱真的可以为所欲为"
+                android:textColor="@color/black_333333"
+                android:textColorHint="@color/gray_999999"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="A: "
+                android:textColor="@color/black_333333"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/edit_8"
+                android:layout_width="match_parent"
+                android:layout_height="44dip"
+                android:background="@drawable/shape_edit_bg"
+                android:gravity="center_vertical"
+                android:hint="不过我相信你不明白这种感觉"
+                android:lines="1"
+                android:paddingLeft="10dp"
+                android:text="不过我相信你不明白这种感觉"
+                android:textColor="@color/black_333333"
+                android:textColorHint="@color/gray_999999"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="A: "
+                android:textColor="@color/black_333333"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/edit_9"
+                android:layout_width="match_parent"
+                android:layout_height="44dip"
+                android:background="@drawable/shape_edit_bg"
+                android:gravity="center_vertical"
+                android:hint="不明白 不明白"
+                android:lines="1"
+                android:paddingLeft="10dp"
+                android:text="不明白 不明白"
+                android:textColor="@color/black_333333"
+                android:textColorHint="@color/gray_999999"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submitBtn"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginRight="33dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/btn_grey_selector"
+            android:enabled="true"
+            android:gravity="center"
+            android:text="生成gif图"
+            android:textColor="@color/black_333333"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/shareBtn"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginRight="33dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/btn_grey_selector"
+            android:enabled="true"
+            android:gravity="center"
+            android:text="分享斗图"
+            android:textColor="@color/black_333333"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/showSorryGif"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp" />
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/backText"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="返回"
+            android:textColor="@color/black_333333"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:gravity="center"
+            android:text="关于我"
+            android:textColor="@color/black_333333"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:background="@color/gray_666666" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/shape_edit_bg"
+        android:padding="15dp"
+        android:text="        1. 任何使用逗斗app的用户均不能用于商业用途，用户可选择不使用逗斗app，用户使用逗斗app的行为将被视为对本声明全部内容的认可。\n
+        2. 任何单位或个人认为通过逗斗app的内容可能涉嫌侵犯其合法权益，应该及时向逗斗app反馈，并提供身份证明、权属证明及详细侵权情况证明，逗斗app在收到上述法律文件后，将会尽快移除被控侵权内容。\n
+        3.该app只提供娱乐，禁止用于商业用途，违者自负。\n
+        联系我：qq：893007592"
+        android:textColor="@color/black_333333"
+        android:textSize="15sp" />
+
+</LinearLayout>
