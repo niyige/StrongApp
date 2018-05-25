@@ -2,6 +2,7 @@ package com.oyy.strong.ui
 
 import android.os.Bundle
 import android.support.v4.app.Fragment
+import android.support.v4.view.GravityCompat
 import android.support.v7.app.AppCompatActivity
 import android.view.View.OVER_SCROLL_NEVER
 import com.manqian.crm.adapter.TabAdapter
@@ -12,6 +13,7 @@ import com.oyy.strong.R
 import com.oyy.strong.utils.DensityUtil
 import com.oyy.strong.utils.PermissionUtil
 import kotlinx.android.synthetic.main.activity_main.*
+import org.jetbrains.anko.onClick
 import org.jetbrains.anko.toast
 
 
@@ -22,7 +24,7 @@ import org.jetbrains.anko.toast
 
 class MainActivity : AppCompatActivity() {
 
-    private val tabs = arrayOf("王境泽", "为所欲为", "打工")
+    private val tabs = arrayOf("wjz", "为所欲为", "打工")
 
     private val fragments = ArrayList<Fragment>()
 
@@ -50,8 +52,26 @@ class MainActivity : AppCompatActivity() {
 
         horizontal_scrollview.setParams(tabSpacing, cursorPadding, tabs, pagers, true)
 
-
+        leftText.onClick {
+            toggleMenu()
+        }
     }
+
+    private fun isMenuShowing(): Boolean {
+        return drawerlayout.isDrawerOpen(GravityCompat.START)
+    }
+
+    /**
+     * 开关侧滑菜单
+     */
+    private fun toggleMenu() {
+        if (isMenuShowing()) {
+            drawerlayout.closeDrawer(GravityCompat.START)
+        } else {
+            drawerlayout.openDrawer(GravityCompat.START)
+        }
+    }
+
 
     override fun onResume() {
         super.onResume()

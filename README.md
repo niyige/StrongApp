@@ -1,12 +1,14 @@
 # 逗斗
 为斗图而生，斗图不断，装逼不止。
+app体验: https://www.pgyer.com/5VoD
 
 #技术要点
 1. android原生跟kotlin混合开发
 2. gif图生成需要后台配合，关键技术：ffmpeg
 3. app内部加载gif图，使用的 glide
-4. 思路是参考sorry(https://github.com/xtyxtyx/sorry)，java后台参考的是sorryJava(https://github.com/li24361/sorryJava)
-5. 完成该内容需要：app + 管理后台 +文件存储（本人用的是腾讯云的存储桶)
+4. 网络请求用的retrofit + rx.java
+5. 思路是参考sorry(https://github.com/xtyxtyx/sorry), java后台参考的是sorryJava(https://github.com/li24361/sorryJava)
+6. 完成该内容需要：app + 管理后台 +文件存储（本人用的是腾讯云的存储桶)
 
 #版本1.0
 目前只提供王境泽，为所欲为，打工 三类，文字可以自己输入配合图片生成一张gif
@@ -19,13 +21,15 @@
 首页在这：
 ![image](https://github.com/niyige/StrongApp/blob/master/screenshots/index.jpg)
 
-操作：
+#操作：
 
 ![image](https://github.com/niyige/StrongApp/blob/master/screenshots/start.gif)
 
-开图：
+#开图：
 ![image](https://github.com/niyige/StrongApp/blob/master/screenshots/gifShow.gif)
-这个时候QQ里面长按点击转发，就成了正常的表情包了
+
+#tips:
+ 这个时候QQ里面长按点击转发，就成了正常的表情包了
 
 清除缓存（android手机你懂的）：
 ![image](https://github.com/niyige/StrongApp/blob/master/screenshots/clear.jpg)

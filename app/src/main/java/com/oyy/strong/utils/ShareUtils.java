@@ -20,7 +20,7 @@ public class ShareUtils {
             share.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
             context.startActivity(Intent.createChooser(share, "分享文件"));
         } else {
-            Toast.makeText(context, "文件不存在", Toast.LENGTH_LONG).show();
+            Toast.makeText(context, "gif图不存在，请点击上面的生成按钮", Toast.LENGTH_LONG).show();
         }
     }
 

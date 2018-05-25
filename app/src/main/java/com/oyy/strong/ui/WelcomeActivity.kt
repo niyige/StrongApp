@@ -15,6 +15,7 @@ class WelcomeActivity : AppCompatActivity() {
 
         Handler().postDelayed({
             startActivity<MainActivity>()
+            finish()
         }, 2000)
     }
 }
